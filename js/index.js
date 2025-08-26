@@ -4,6 +4,15 @@ function getElement(id){
 
 
   }
+  // document.getElementById('product-btn').addEventListener('click',function(e){
+  //   if(e.target.className.includes('cart-btn')){
+  //   const cartBtn=e.target
+    
+      
+  //   }
+
+  // })
+  // traverse
 
   const cartBtns=document.getElementsByClassName('cart-btn')
   for(let cartBtn of cartBtns){
